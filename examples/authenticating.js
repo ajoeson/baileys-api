@@ -1,3 +1,4 @@
+import fetch from "node-fetch";
 const BASE_URI = 'http://localhost:8000/'
 const SESSION_ID = 'john'
 
