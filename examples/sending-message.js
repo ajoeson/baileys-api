@@ -18,36 +18,37 @@ const sendMessage = async (endpoint, data) => {
 (async () => {
   // Send Text Message to Someone
   // await sendMessage('chats/send', {
-  //     receiver: '85253189211',
-  //     message: {
-  //         text: 'Hello there!',
-  //     },
+  //   receiver: '85294587533',
+  //   message: {
+  //     text: '@85253189211 is Jane',
+  //     mentions: ['85253189211@s.whatsapp.net']
+  //   },
   // })
 
   const buttons = [
-    { buttonId: 'id1', buttonText: { displayText: 'Button 1' }, type: 1 },
+    { buttonId: 'id1', buttonText: { displayText: 'This button has a very long long long long long long description' }, type: 1 },
     { buttonId: 'id2', buttonText: { displayText: 'Button 2' }, type: 1 },
     { buttonId: 'id3', buttonText: { displayText: 'Button 3' }, type: 1 },
-    { buttonId: 'id4', buttonText: { displayText: 'Button 3' }, type: 1 },
-    { buttonId: 'id5', buttonText: { displayText: 'Button 3' }, type: 1 },
-    { buttonId: 'id6', buttonText: { displayText: 'Button 3' }, type: 1 },
-    { buttonId: 'id7', buttonText: { displayText: 'Button 3' }, type: 1 },
-    { buttonId: 'id8', buttonText: { displayText: 'Button 3' }, type: 1 },
-    { buttonId: 'id9', buttonText: { displayText: 'Button 3' }, type: 1 },
-    { buttonId: 'id10', buttonText: { displayText: 'Button 3' }, type: 1 },
-    { buttonId: 'id11', buttonText: { displayText: 'Button 3' }, type: 1 },
-    { buttonId: 'id12', buttonText: { displayText: 'Button 3' }, type: 1 },
+    // { buttonId: 'id4', buttonText: { displayText: 'Button 3' }, type: 1 },
+    // { buttonId: 'id5', buttonText: { displayText: 'Button 3' }, type: 1 },
+    // { buttonId: 'id6', buttonText: { displayText: 'Button 3' }, type: 1 },
+    // { buttonId: 'id7', buttonText: { displayText: 'Button 3' }, type: 1 },
+    // { buttonId: 'id8', buttonText: { displayText: 'Button 3' }, type: 1 },
+    // { buttonId: 'id9', buttonText: { displayText: 'Button 3' }, type: 1 },
+    // { buttonId: 'id10', buttonText: { displayText: 'Button 3' }, type: 1 },
+    // { buttonId: 'id11', buttonText: { displayText: 'Button 3' }, type: 1 },
+    // { buttonId: 'id12', buttonText: { displayText: 'Button 3' }, type: 1 },
   ]
 
-  await sendMessage('chats/send', {
-    receiver: '85256660357',
-    message: {
-      text: "The sub9 messaging gateway works now.",
-      footer: 'Hello World',
-      buttons: buttons,
-      headerType: 1
-    },
-  })
+  // await sendMessage('chats/send', {
+  //   receiver: '85294587533',
+  //   message: {
+  //     text: "The sub9 messaging gateway works now.",
+  //     footer: 'Hello World',
+  //     buttons: buttons,
+  //     headerType: 1
+  //   },
+  // })
 
   // Send Bulk Text Message to Multiple Person
   // await sendMessage('chats/send-bulk', [
@@ -67,9 +68,12 @@ const sendMessage = async (endpoint, data) => {
 
   // // Send Text Message to a Group
   // await sendMessage('groups/send', {
-  //     receiver: '628950xxxxx-1631xxxxx',
-  //     message: {
-  //         text: 'Hello guys!',
-  //     },
+  //   receiver: '85256660357-1565505526',
+  //   message: {
+  //     text: "The sub9 messaging gateway works now.",
+  //     footer: 'Hello World',
+  //     buttons: buttons,
+  //     headerType: 1
+  //   },
   // })
 })()
