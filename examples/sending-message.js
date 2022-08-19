@@ -26,9 +26,9 @@ const sendMessage = async (endpoint, data) => {
   // })
 
   const buttons = [
-    { buttonId: 'id1', buttonText: { displayText: 'This button has a very long long long long long long description' }, type: 1 },
-    { buttonId: 'id2', buttonText: { displayText: 'Button 2' }, type: 1 },
-    { buttonId: 'id3', buttonText: { displayText: 'Button 3' }, type: 1 },
+    { buttonId: 'id1', buttonText: { displayText: '13:00' }, type: 1 },
+    { buttonId: 'id2', buttonText: { displayText: '13:15' }, type: 1 },
+    { buttonId: 'id3', buttonText: { displayText: '13:30' }, type: 1 },
     // { buttonId: 'id4', buttonText: { displayText: 'Button 3' }, type: 1 },
     // { buttonId: 'id5', buttonText: { displayText: 'Button 3' }, type: 1 },
     // { buttonId: 'id6', buttonText: { displayText: 'Button 3' }, type: 1 },
@@ -41,7 +41,7 @@ const sendMessage = async (endpoint, data) => {
   ]
 
   // await sendMessage('chats/send', {
-  //   receiver: '85294587533',
+  //   receiver: '85256660357',
   //   message: {
   //     text: "The sub9 messaging gateway works now.",
   //     footer: 'Hello World',
@@ -67,13 +67,13 @@ const sendMessage = async (endpoint, data) => {
   // ])
 
   // // Send Text Message to a Group
-  // await sendMessage('groups/send', {
-  //   receiver: '85256660357-1565505526',
-  //   message: {
-  //     text: "The sub9 messaging gateway works now.",
-  //     footer: 'Hello World',
-  //     buttons: buttons,
-  //     headerType: 1
-  //   },
-  // })
+  await sendMessage('groups/send', {
+    receiver: '85291880430-1597154744',
+    message: {
+      text: "禮拜六幾點練歌？",
+      footer: 'JA~',
+      buttons: buttons,
+      headerType: 1
+    },
+  })
 })()
