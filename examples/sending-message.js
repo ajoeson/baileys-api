@@ -43,8 +43,8 @@ const sendMessage = async (endpoint, data) => {
   // await sendMessage('chats/send', {
   //   receiver: '85256660357',
   //   message: {
-  //     text: "The sub9 messaging gateway works now.",
-  //     footer: 'Hello World',
+  //     text: "Testing whatsapp gateway",
+  //     footer: 'HI JOny',
   //     buttons: buttons,
   //     headerType: 1
   //   },
@@ -67,13 +67,13 @@ const sendMessage = async (endpoint, data) => {
   // ])
 
   // // Send Text Message to a Group
-  await sendMessage('groups/send', {
-    receiver: '85291880430-1597154744',
-    message: {
-      text: "禮拜六幾點練歌？",
-      footer: 'JA~',
-      buttons: buttons,
-      headerType: 1
-    },
-  })
+  // await sendMessage('groups/send', {
+  //   receiver: '85291880430-1597154744',
+  //   message: {
+  //     text: "禮拜六幾點練歌？",
+  //     footer: 'JA~',
+  //     buttons: buttons,
+  //     headerType: 1
+  //   },
+  // })
 })()
